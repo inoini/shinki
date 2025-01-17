@@ -1,0 +1,97 @@
+img{ width: 1500px;
+    height: 1500px;
+
+}
+
+
+.btn-social-long-twitter {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background-color: #4287d6;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す
+  */
+  position:relative;
+  left: 1200px;
+
+}
+
+.btn-social-long-twitter .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+
+.btn-social-long-twitter span {
+  display:inline-block;
+  transition: .5s;
+}
+.btn-social-long-twitter:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+.btn-edge {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px!;
+  background: #51587b;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.btn-edge:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px white;
+  border-bottom: solid 41px transparent;
+  z-index: 1;
+  transition: .4s;
+}
+
+.btn-edge:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px transparent;
+  border-bottom: solid 41px white;
+  z-index: 1;
+  transition: .4s;
+}
+
+.btn-edge:hover:before, .btn-edge:hover:after {
+  border-left-width: 25px;
+}
+
+.deg_btn:hover {
+  background: #2c3148;
+}
+.home{
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+  position: absolute;
+  top: 100px;
+  left: 230px;
+
+}
+
+
